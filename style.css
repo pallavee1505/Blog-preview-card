@@ -20,9 +20,10 @@ body {
   line-height: 1.5;
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
+  min-height:100vh;
   background-color: hsl(47, 88%, 63%);
   display:flex;
-  justify-content:center ;
+  flex-direction:column;
   align-items: center;
   padding-top: 219px;
 }
@@ -69,6 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 20px;
   border: 1px solid black;
   box-shadow: 10px 11px 0 black;
+  flex:1;
 }
 .tag{
   padding:3px;
@@ -117,3 +119,17 @@ width:336px;
     color:  hsl(47, 88%, 63%);
   }
 }
+footer{
+  margin-top: auto;
+  padding-top: 150px;
+
+}
+.attribution {
+   font-size: 0.6875rem; text-align: center;
+
+   }
+
+.attribution a {
+   color: hsl(228, 45%, 44%); 
+  }
+  
